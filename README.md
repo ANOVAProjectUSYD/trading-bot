@@ -81,6 +81,22 @@ rm -rf name_of_env
 
 Voila! Should be gone!
 
+So next time you start up some more coding, follow the process in creating a venv like usual (which you should know by now):
+
+```bash
+python3 -m venv name_of_env
+source name_of_env/bin/activate
+pip3 install -r requirements.txt
+```
+
+What the final line does there is for Pip to read in the requirements.txt file and install all the packages in the requirements file. Now when you check what packages you have:
+
+```bash
+pip3 freeze
+```
+
+you should have all the packages installed.
+
 ### Intro to Github
 This [youtube series](https://www.youtube.com/watch?v=1h9_cB9mPT8&list=PLqGj3iMvMa4LFz8DZ0t-89twnelpT4Ilw) is really good introduction to Git and Github. Would recommend you guys to watch this.
 
@@ -107,4 +123,4 @@ Hope that made some sense and feel free to ask me questions :)
 ## Requirements
 Python3 was used to develop the project. View requirements.txt to see the packages required.
 ## Contributors
-The ANOVA Project - James Lin and Chris Hyland.
+The ANOVA Project - James Lin, Garnet Chan, and Chris Hyland.
