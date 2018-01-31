@@ -123,7 +123,26 @@ Hope that made some sense and feel free to ask me questions :)
 ## Requirements
 Python3 was used to develop the project. View requirements.txt to see the packages required.
 
-[Poloniex api](https://pypi.python.org/pypi/poloniex) used
+[Poloniex api](https://pypi.python.org/pypi/poloniex) used.
+
+I've created an account for all of us to use in order to access parts of Poloniex which requires an API key. More information found [here](https://poloniex.com/support/api/).
+
+Email: admin@anovaprojectusyd.org
+Password: anovaproject
+
+API Key: TSOM80FK-VIYJV705-6E27F6P3-IL92VWCF
+Secret: 6bd7cf3f563edded66f6f73782fed44d0e9cc0b345d5a290a4abf60f7c9713e32a718f94a665237bc2d444320bb33bf98e3911dd547d2c7acdf7a464bc37ae53
+
+## Documentation
+[Code base for Poloniex Python API](https://pastebin.com/fbkheaRb)
+
+Other possible data from API includes lowestAsk, highestBid, perceChange, baseVolume, quoteVolume, isFrozen, high24hr, low24hr.
+
+## Running the code
+As an example, to grab data of BTC vs Ethereum every 1800 milliseconds, go:
+```bash
+python3 main.py 1800 BTC_ETH
+```
 
 ## Contributors
 The ANOVA Project - James Lin, Garnet Chan, and Chris Hyland.
