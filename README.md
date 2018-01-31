@@ -122,5 +122,8 @@ Hope that made some sense and feel free to ask me questions :)
 
 ## Requirements
 Python3 was used to develop the project. View requirements.txt to see the packages required.
+
+[Poloniex api](https://pypi.python.org/pypi/poloniex) used
+
 ## Contributors
 The ANOVA Project - James Lin, Garnet Chan, and Chris Hyland.
