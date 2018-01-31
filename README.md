@@ -123,14 +123,16 @@ Hope that made some sense and feel free to ask me questions :)
 ## Requirements
 Python3 was used to develop the project. View requirements.txt to see the packages required.
 
-[Poloniex api](https://pypi.python.org/pypi/poloniex) used.
+We made heavy use of the [Poloniex api](https://pypi.python.org/pypi/poloniex) used.
 
 I've created an account for all of us to use in order to access parts of Poloniex which requires an API key. More information found [here](https://poloniex.com/support/api/).
 
 Email: admin@anovaprojectusyd.org
+
 Password: anovaproject
 
 API Key: TSOM80FK-VIYJV705-6E27F6P3-IL92VWCF
+
 Secret: 6bd7cf3f563edded66f6f73782fed44d0e9cc0b345d5a290a4abf60f7c9713e32a718f94a665237bc2d444320bb33bf98e3911dd547d2c7acdf7a464bc37ae53
 
 ## Documentation
