@@ -2,7 +2,7 @@ import os, argparse
 import datetime
 import time
 from poloniex import Poloniex
-
+#this is here
 
 def clean_arguments():
     '''Parses correct time and ticker pair.'''
