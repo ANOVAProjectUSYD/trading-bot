@@ -9,6 +9,7 @@ def viewBalances(conn):
 	print("ETH balance is %s!" % balance['ETH'])
 	print("BTC balance is %s!" % balance['BTC'])
 
+
 def main():
 	period = input("Please input the number of seconds between data points e.g. 2 : \n") #amount of seconds between live data points
 	pair = "BTC_ETH" #default
